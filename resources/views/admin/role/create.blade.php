@@ -1,5 +1,5 @@
 @extends('admin.layouts.master')
-@section('title', 'Tambah Rol')
+@section('title', 'Tambah Role')
 
 @section('content')
 <div class="page-title">
@@ -14,21 +14,21 @@
     <div class="card-body">
         @if ($errors->any())
             <div class="alert alert-danger alert-dismissible fade show" role="alert">
-                <h5 class="alert-heading">Update Error!</h5>
+                <h5 class="alert-heading">Submit Error!</h5>
                 @foreach ($errors->all() as $error)
                     <li>{{ $error }}</li>
                 @endforeach
                 <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
             </div>
         @endif
-        <form class="form" action="{{ route('roles.store') }}" enctype="multipart/form-data" method="POST">
+        <form class="form" action="{{ route('roles.store') }}" method="POST">
             @csrf
             <div class="form-body">
                 <div class="row">
                     <div class="col-md-12">
                         <div class="form-group">
                             <label for="name">Nama Role</label>
-                            <input type="text" class="form-control" id="name" placeholder="Masukkan Nama Menu" name="role_name" required>
+                            <input type="text" class="form-control" id="name" placeholder="Masukkan Nama Role" name="role_name" required>
                         </div>
 
                         <div class="form-group">
