@@ -39,7 +39,7 @@
                     <div class="row">
                         <div class="col-md-12 col-lg-12">
                             <div class="form-item">
-                                <textarea name="text" class="form-control" spellcheck="false" cols="30" rows="5" placeholder="Catatan pesanan (Opsional)"></textarea>
+                                <textarea name="note" class="form-control" spellcheck="false" cols="30" rows="5" placeholder="Catatan pesanan (Opsional)"></textarea>
                             </div>
                         </div>
                     </div>

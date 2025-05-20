@@ -35,3 +35,4 @@ Route::resource('roles', RoleController::class);
 Route::resource('users', UserController::class);
 Route::resource('orders', OrderController::class);
 
+Route::post('items/update-status/{order}', [ItemController::class, 'updateStatus'])->name('items.updateStatus');
