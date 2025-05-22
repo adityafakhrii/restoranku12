@@ -44,7 +44,6 @@
                 </tr>
             </tbody>
         </table>
-
         @if ($order->payment_method =='tunai')
             <p class="small text-center">Tunjukkan kode bayar ini ke kasir untuk menyelesaikan pembayaran. Jangan lupa senyum ya!</p>
         @elseif ($order->payment_method == 'qris')

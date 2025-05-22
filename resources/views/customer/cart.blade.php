@@ -33,12 +33,9 @@
                   </tr>
                 </thead>
                 <tbody>
-
                     @php
                         $subTotal = 0;
                     @endphp
-
-                    {{-- kemarin sampai sini --}}
                     @foreach ($cart as $item)
                         @php
                             $itemTotal = $item['price'] * $item['qty'];
@@ -84,16 +81,13 @@
                 </tbody>
             </table>
         </div>
-
         @php
             $tax = $subTotal * 0.1;
             $total = $subTotal + $tax;
         @endphp
-
         <div class="d-flex justify-content-end">
             <a href="{{ route('cart.clear') }}" class="btn btn-danger" onclick=" return confirm('Apakah Anda yakin ingin mengosongkan keranjang?')">Kosongkan Keranjang</a>
         </div>
-
         <div class="row g-4 justify-content-end mt-1">
             <div class="col-8"></div>
             <div class="col-sm-8 col-md-7 col-lg-6 col-xl-4">
@@ -115,7 +109,6 @@
                         <h4 class="mb-0 ps-4 me-4">Total</h4>
                         <h5 class="mb-0 pe-4">Rp{{ number_format($total, 0, ',','.') }}</h5>
                     </div>
-
                 </div>
                 <div class="d-flex justify-content-end">
                     <div class="mb-0 mb-3">

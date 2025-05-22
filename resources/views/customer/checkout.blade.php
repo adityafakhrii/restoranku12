@@ -78,18 +78,15 @@
                                         <td class="py-5">{{ 'Rp'. number_format($item['price'] * $item['qty'], 0, ',','.') }}</td>
                                     </tr>
                                     @endforeach
-
                                 </tbody>
                             </table>
                         </div>
                     </div>
                 </div>
-
                 @php
                     $tax = $subTotal * 0.1;
                     $total = $subTotal + $tax;
                 @endphp
-
                 <div class="col-md-12 col-lg-6 col-xl-6">
                     <div class="row g-4 align-items-center py-3">
                         <div class="col-lg-12">
@@ -126,7 +123,6 @@
                                     </div>
                                 </div>
                             </div>
-
                             <div class="d-flex justify-content-end">
                                 <button type="button" id="pay-button" class="btn border-secondary py-3 text-uppercase text-primary">Konfirmasi Pesanan</button>
                             </div>
