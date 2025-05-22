@@ -1,4 +1,5 @@
 @extends('admin.layouts.master')
+
 @section('title', 'Kategori')
 @section('css')
 <link rel="stylesheet" href="{{ asset('assets/admin/extensions/simple-datatables/style.css') }}">
@@ -58,7 +59,6 @@
                                 </form>
                             </td>
                         </tr>
-
                         @endforeach
                     </tbody>
                 </table>

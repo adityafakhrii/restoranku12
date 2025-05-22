@@ -50,12 +50,10 @@
                                 @endforeach
                             </select>
                         </div>
-
                         <div class="form-group">
                             <label for="image">Gambar</label>
                             <input type="file" class="form-control" id="image" name="img" required>
                         </div>
-
                         <div class="form-group">
                             <label for="is_active">Status</label>
                             <div class="form-check form-switch">
@@ -64,15 +62,11 @@
                                 <label for="flexSwitchCheckChecked">Aktif/Tidak Aktif</label>
                             </div>
                         </div>
-
                         <div class="form-group d-flex justify-content-end">
                             <button type="submit" class="btn btn-primary me-1 mb-1">Simpan</button>
                             <button type="reset" class="btn btn-light-secondary me-1 mb-1">Reset</button>
                             <a href="{{ route('items.index') }}" type="submit" class="btn btn-light-secondary me-1 mb-1">Batal</a>
-
                         </div>
-
-
                     </div>
                 </div>
             </div>

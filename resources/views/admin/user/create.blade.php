@@ -62,8 +62,6 @@
                             <input type="password" class="form-control" id="password_confirmation" placeholder="Masukkan Konfirmasi Password" name="password_confirmation" required>
                             <small><a href="#" class="toggle-password" data-target="password_confirmation">Lihat Password</a></small>
                         </div>
-
-
                         <div class="form-group d-flex justify-content-end">
                             <button type="submit" class="btn btn-primary me-1 mb-1">Simpan</button>
                             <button type="reset" class="btn btn-light-secondary me-1 mb-1">Reset</button>

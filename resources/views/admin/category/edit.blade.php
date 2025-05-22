@@ -40,10 +40,7 @@
                             <button type="submit" class="btn btn-primary me-1 mb-1">Simpan</button>
                             <button type="reset" class="btn btn-light-secondary me-1 mb-1">Reset</button>
                             <a href="{{ route('categories.index') }}" type="submit" class="btn btn-light-secondary me-1 mb-1">Batal</a>
-
                         </div>
-
-
                     </div>
                 </div>
             </div>

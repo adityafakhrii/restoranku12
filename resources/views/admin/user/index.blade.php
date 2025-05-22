@@ -64,13 +64,11 @@
                                 </form>
                             </td>
                         </tr>
-
                         @endforeach
                     </tbody>
                 </table>
             </div>
         </div>
-
     </section>
 </div>
 @endsection
